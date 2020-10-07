@@ -7,5 +7,5 @@ function RectangleArea()
     let height = parseInt(inputHeight);
     let area = width * height;
 
-    document.write("dien tich hinh chu nhat la :" + area);
+    document.getElementById("123").innerHTML = "Diện tích là : " + area;
 }
